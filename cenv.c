@@ -1,11 +1,14 @@
 ##ifndef C_ENV_H
 #define C_ENV_H
-
-enum
+typedef struct ENV_STRUCT
 {
-    ENV_PATH,
-    ENV_PS_MODULE_PATH
-} ENV_Type;
+    enum
+    {
+        ENV_PATH,
+        ENV_PS_MODULE_PATH
+    } ENV_Type;
+    char* value;
+} ENT_t;
 
 
 
