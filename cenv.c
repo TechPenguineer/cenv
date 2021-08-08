@@ -10,6 +10,6 @@ typedef struct ENV_STRUCT
     char type[];
 } ENT_t;
 
-ENV_t* set_env(char type[], char value[] )
+ENV_t* set_env(char type[], char value[] );
 
 ##endif
